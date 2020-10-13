@@ -20,7 +20,7 @@ body {
 .item{
     width: 200px;
     padding: 8px;
-    background-color: dimgrey;
+    background-color: rgb(151, 144, 144);
     float: left;
 
 }
