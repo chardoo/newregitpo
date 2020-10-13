@@ -1,0 +1,27 @@
+{
+
+    "item":[
+        {
+            "id":1001,
+      "name":"Curren ",
+      "description":"dolor sit amet consectetur adipisicing temporibus  iste doloremillum laborum",
+      "price" : 100,
+      "moreInfo": "lorem ipsum dolor sit amet"
+    },
+    {
+        "id":1001,
+        "name":"Rolex watch ",
+        "description":"adipisicing elit. Libero ipsa inmolestvvb vero laudantium  temporibus animi",
+        "price" :  100,
+        "moreInfo": "lorem ipsum dolor sit amet"
+      },
+      {
+          "id":1003,
+        "name":"Petek philippe ",
+        "description":"dolor sit amet consectetur adipisicing elit. Libero ipsa inmolestias nobis",
+        "price" : 100,
+        "moreInfo": "lorem ipsum dolor sit amet"
+      }
+
+]
+}

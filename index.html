@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <script src="js/jquery-3.5.1.js"></script>
+   <script src="js/main.js"></script>
+   <link rel="stylesheet"  type="text/css" href="css/style.css" />
+</head>
+<body>
+    <div id="container">
+       
+   <div id="admin-container">
+    
+       <h1>Add New item to your page</h1>
+       <h2>make sure you enter all the details before your</h2>
+       <div class="error-message"> Please enter the Product Details </div> 
+       <div class="error-message1"> Please enter your email address </div> 
+       <input type="text" id="input-create-item" required="yes" placeholder="enter the product name"> 
+        <input type="text" id="input-create-item-des" placeholder="Describe your product">
+       <input type="text" id="input-create-item-pric" placeholder="enter product Price">
+       <button id="button-create-item">Add</button>
+    </div>
+    
+    
+    <div id="cart-container">
+         Total  $0
+    </div>
+    
+    <div id="user-data">
+         <form id="cart-form" method="post" action="data/cartSubmit.json">
+           </br>
+            <label>Name</label>
+            <input name="name" type="text"  placeholder=""> 
+            </br>
+            </br>
+            <label>Email</label>
+            <input name="email" id="inputemail" type="text"  placeholder=""> 
+           
+            </br>
+            <label >Newsletter?</label>
+            <input name="wantNewletter" checked id="newletter-checkbox" type="checkbox" > 
+            </br>
+            <select name="newletterfrquency" id="newletter-frequency">
+                <option selected>Weekly </option>
+                <option>Monthly </option>
+            </select>
+           </br>
+          <button type="submit" id="submit-cart">Sumbit</button>
+        </form>
+        <div id="feedback-message"></div>
+        
+    </div>
+    
+
+
+    </div>
+       <div id="container">
+       
+        
+       <!-- <div class="item">
+           <div class="name">  watches</div>
+           <img src="assets/item1.jpeg">
+           <div class="description">Lorem ipsum 
+               dolor sit amet consectetur 
+               adipisicing elit. Libero ipsa in
+                molestias nobis vero laudantium minus temporibus animi iste dolorem, 
+                illum id dolores corrupti laborum labore,
+                 suscipit est similique quisquam?
+                </div>
+      
+             <div class="price">499</div>
+
+             <button class="item-add">add to cart</button>
+             <button class="item-remove">Remove</button>
+             <a  class="more-info-link" href="#">More info</a>
+             <div class="more-info">Lorem, ipsum dolor sit amet </div>
+        -->
+            </div>
+        
+        </div>
+</body>
+</html>
